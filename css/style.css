@@ -1,0 +1,210 @@
+:root {
+  --kuning: #fff700;
+  --bg: #fff;
+  --merah: #ff0000;
+}
+
+/* navbar */
+.navbar {
+  background-color: var(--kuning);
+}
+
+.navbar-brand span {
+  color: var(--merah);
+  font-family: "Prompt", sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-family: "Signika Negative", sans-serif;
+  color: var(--merah);
+}
+/* HOME */
+.banner {
+  display: flex;
+  height: 100vh;
+  background-image: url("../image/bg.jpg");
+  background-size: cover;
+}
+.banner-content {
+  display: flex;
+  height: 100%;
+  color: var(--kuning);
+  justify-content: center;
+  align-items: center;
+  font-family: "carter one", cursive;
+  padding-bottom: 20rem;
+}
+
+.h1 {
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.h6 {
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 2rem;
+}
+
+.daftar {
+  color: #000000;
+  border-color: #000000;
+  background-color: var(--kuning);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 1rem;
+}
+
+.daftar-login .daftar:hover {
+  color: #000000;
+  border-color: transparent;
+  background-color: var(--kuning);
+}
+
+.login {
+  color: #000000;
+  border-color: #000000;
+  background-color: transparent;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.daftar-login .login:hover {
+  color: #000000;
+  border-color: transparent;
+  background-color: var(--kuning);
+}
+
+/* LOGIN */
+.login-con {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.login-form {
+  height: 500px;
+  width: 430px;
+  align-items: center;
+  background-color: var(--bg);
+  opacity: 85%;
+  border-radius: 5%;
+  font-weight: 700;
+}
+
+.login-form h2 {
+  font-family: "literata", serif;
+}
+
+.lapangan {
+  display: flex;
+  height: 100vh;
+  background-image: url("../image/lap.png");
+  background-size: cover;
+}
+
+input[type="email"],
+input[type="password"] {
+  border-radius: 5%;
+}
+
+.btn-primary {
+  color: #000000;
+  background-color: var(--kuning);
+  font-weight: 700;
+}
+.hvr .btn-primary:hover {
+  color: #000000;
+  background-color: var(--kuning);
+}
+
+.hvr .btn-primary a {
+  margin-top: 5rem;
+}
+/* DAFTAR */
+
+.lapang {
+  display: flex;
+  height: 100vh;
+  background-image: url("../image/lap.png");
+  background-size: cover;
+}
+
+.daftar-con {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.lgn-form {
+  height: 500px;
+  width: 700px;
+  background-color: var(--bg);
+  opacity: 85%;
+  border-radius: 5%;
+  font-weight: 700;
+}
+
+.lgn-form h2 {
+  font-family: "literata", serif;
+}
+
+.namatim {
+  float: left;
+  width: 25%;
+  margin-left: 4rem;
+}
+.box {
+  float: right;
+  width: 50%;
+}
+.username {
+  float: left;
+  width: 25%;
+  margin-left: 4rem;
+}
+
+.password {
+  float: left;
+  width: 25%;
+  margin-left: 4rem;
+}
+
+.alamat {
+  float: left;
+  width: 25%;
+  margin-left: 4rem;
+}
+
+.nohp {
+  float: left;
+  width: 25%;
+  margin-left: 4rem;
+}
+
+.hov .btn-primary-login {
+  color: #000000;
+  background-color: var(--kuning);
+  font-weight: 700;
+  width: 50%;
+}
+
+/* JADWAL */
+.bglap {
+  display: flex;
+  height: 100vh;
+  background-image: url("../image/bg.jpg");
+  background-size: cover;
+}
+
+.jdwl {
+  opacity: 50%;
+}
+
+.tab1 {
+  width: 100%;
+  border: none;
+  font-weight: 700;
+}
